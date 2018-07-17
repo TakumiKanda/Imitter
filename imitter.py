@@ -59,7 +59,7 @@ class TweetGetter:
 		for tweet in TL:
 			tweet = tweet.text.replace('\n','')
 			print(tweet)
-			if re.compile('(https|http|RT|@|w/|#)').search(tweet) == None:
+			if re.compile('(https|http|RT|@|w/)').search(tweet) == None:
 				tweet_data.append([tweet])
 				#形態素解析
 				parsed_tweet = mecab.parse(tweet).split('\n')
