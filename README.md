@@ -37,7 +37,8 @@ Imitterは指定されたアカウントの口調を真似して定時ツイー�
           access_token = '取得したaccess tokenをここに入れる'
           access_secret = '取得したaccess secretをここに入れる'
 
-4. 必要なパッケージをインストールしてください。  
+4. 必要なパッケージをインストールしてください。
+
           pip install tweepy
           sudo apt install libatlas-base-dev
           sudo apt install mecab
@@ -46,13 +47,16 @@ Imitterは指定されたアカウントの口調を真似して定時ツイー�
           pip install gensim
 
 5. mecabの新語辞書(mecab-ipadic-neologd)をインストールしてください。  
+
           git clone --depth 1 https://github.com/neologd/mecab-ipadic-neologd.git
           cd mecab-ipadic-neologd
           ./bin/install-mecab-ipadic-neologd -n
 
-6. imitter.pyの8行目に真似したいtwitterアカウントのIDを@なしで入力してください。
+6. imitter.pyの8行目に真似したいtwitterアカウントのIDを@なしで入力してください。  
+
           #安倍総理のツイートを真似したい時
           target_id = 'AbeShinzo'
 
 7. 準備は全て完了しました。python3でimitter.pyを実行してください。
+
           python3 imitter.py
