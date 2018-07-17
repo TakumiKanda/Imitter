@@ -25,17 +25,17 @@ Imitterは指定されたアカウントの口調を真似して定時ツイー�
 
   環境変数の設定方法がわからない場合はimitter.pyに4つのAPIキーを直接入力してください。
 
-          #imitter.py内の以下の部分を編集してください
-          consumer_key = os.environ.get('TWITTER_CONSUMER_KEY')
-          consumer_secret = os.environ.get('TWITTER_CONSUMER_SECRET')
-          access_token = os.environ.get('TWITTER_ACCESS_TOKEN')
-          access_secret = os.environ.get('TWITTER_ACCESS_SECRET')
+            #imitter.py内の以下の部分を編集してください
+            consumer_key = os.environ.get('TWITTER_CONSUMER_KEY')
+            consumer_secret = os.environ.get('TWITTER_CONSUMER_SECRET')
+            access_token = os.environ.get('TWITTER_ACCESS_TOKEN')
+            access_secret = os.environ.get('TWITTER_ACCESS_SECRET')
 
-          #上の4行を次のように変更してください。
-          consumer_key = '取得したconsumer keyをここに入れる'
-          consumer_secret = '取得したconsumer　secretをここに入れる'
-          access_token = '取得したaccess tokenをここに入れる'
-          access_secret = '取得したaccess secretをここに入れる'
+            #上の4行を次のように変更してください。
+            consumer_key = '取得したconsumer keyをここに入れる'
+            consumer_secret = '取得したconsumer　secretをここに入れる'
+            access_token = '取得したaccess tokenをここに入れる'
+            access_secret = '取得したaccess secretをここに入れる'
 
 4. 必要なパッケージをインストールしてください。
 
