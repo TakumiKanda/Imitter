@@ -67,8 +67,6 @@ class TweetGetter:
 				self.add_chain(parsed_tweet)
 				#形態素解析した結果を保存
 				output_csv_file.write(mecab.parse(tweet))
-		if debug_mode:
-			print(self.form_class_chain)
 		print('Done.')
 		output_csv_file.close()
 		
