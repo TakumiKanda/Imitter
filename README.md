@@ -34,7 +34,8 @@ target_idを@matsu_bouzuにしておみくじを行なった場合
     - TWITTER_CONSUMER_SECRET
     - TWITTER_ACCESS_TOKEN
     - TWITTER_ACCESS_SECRET
-    - 環境変数の設定方法がわからない場合はimitter.pyに4つのAPIキーを直接入力してください。
+    <!--リスト終了-->
+    環境変数の設定方法がわからない場合はimitter.pyに4つのAPIキーを直接入力してください。
 
     ```python
     #imitter.py内の以下の部分を編集してください
